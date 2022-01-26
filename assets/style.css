@@ -100,11 +100,7 @@ nav .nav_links li a:hover{
 }
 .count .counter h4{
     background: #121FCF;
-    background: -webkit-linear-gradient(to right, #121FCF 0%, #CF1512 100%);
-    background: -moz-linear-gradient(to right, #121FCF 0%, #CF1512 100%);
-    background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    
     font-size: 42px;
     margin: 0;
 }
