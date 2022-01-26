@@ -8,9 +8,7 @@
     background-position-y: 37%;
     background-size: 370px;
 }
-nav{
-    
-}
+
 nav .logo{
     width: 160px;
     height: 100px;
@@ -39,10 +37,7 @@ nav .nav_links li a{
 nav .nav_links li a:hover{
     color: rgb(224, 16, 162);
 }
-.banner_content{
-    
-    
-}
+
 .banner_content .left{
     
     display: inline-block;
@@ -108,7 +103,6 @@ nav .nav_links li a:hover{
     background: -webkit-linear-gradient(to right, #121FCF 0%, #CF1512 100%);
     background: -moz-linear-gradient(to right, #121FCF 0%, #CF1512 100%);
     background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 42px;
     margin: 0;
