@@ -176,19 +176,23 @@ nav .nav_links li a:hover{
     margin-top: 20px;
     padding-bottom: 30px;
 }
-.service .top{
+.service .top,
+.blog .top{
     font-family: 'Sedgwick Ave', cursive;
     padding: 30px 0px;
 }
 .service .top h4,
-.service .top h1{
+.service .top h1,
+.blog .top h4,
+.blog .top h1{
     margin: 0;
     padding: 0;
     font-size:15px;
     font-weight: 400;
     text-transform: uppercase;
 }
-.service .top h1{
+.service .top h1,
+.blog .top h1{
     font-weight:600;
     font-family: 'Mochiy Pop P One', sans-serif;
     font-size: 27px;
@@ -211,6 +215,7 @@ nav .nav_links li a:hover{
 .service .bottom .content i{
     font-size: 50px;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 .service .bottom .content h1{
     font-size: 23px;
@@ -231,4 +236,57 @@ hr{
     height: 3px;
     background: rgb(57,139,181);
     background: linear-gradient(90deg, rgba(57,139,181,1) 35%, rgba(232,96,195,1) 100%);
+}
+
+.blog{
+    border: 1px solid red;
+    width: 768px;
+    margin:auto;
+    margin-bottom: 20px;
+}
+.blog .top h1{
+    width: 300px;
+}
+
+.blog .post .news{
+    
+    display: inline-block;
+    width: 32%;
+    margin: 0px 3.77px;
+    font-family: sans-serif;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: rgb(241, 241, 241);
+}
+.blog .post .news img{
+    width: 244px;
+    height: 140px;
+    padding: 0;
+    text-align: center;
+    margin: -15px -15px 0px -15px;
+}
+.blog .post .news .info{
+    display: inline-block;
+}
+.blog .post .news .info i{
+    padding: 0px 1.2px;
+}
+.blog .post .news h2{
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.blog .post .news p{
+    font-family: sans-serif;
+}
+.blog .post .news a{
+    text-decoration: none;
+    font-size: 14px;
+    color:darkslategrey;
+    text-transform: uppercase;
+}
+.blog .post .news hr{
+    margin-left: 0px;
+}
+.service .bottom .content a:hover,
+.blog .post .news a:hover{
+    color: rgb(224, 16, 162);
 }
