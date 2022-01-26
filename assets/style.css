@@ -259,7 +259,7 @@ hr{
     background-color: rgb(241, 241, 241);
 }
 .blog .post .news img{
-    width: 244px;
+    width: 245px;
     height: 140px;
     padding: 0;
     text-align: center;
@@ -287,6 +287,47 @@ hr{
     margin-left: 0px;
 }
 .service .bottom .content a:hover,
-.blog .post .news a:hover{
+.blog .post .news a:hover,
+footer ul li a:hover{
     color: rgb(224, 16, 162);
+}
+.ad{
+    border: 1px solid;
+    width: 768px;
+    margin:auto;
+    margin-bottom: 10px;
+}
+.ad img{
+    width: 130px;
+    height: 60px;
+    padding: 10px;
+}
+footer{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    text-align: center;
+    padding: 50px 0px;
+}
+footer img{
+    display: block;
+    width: 160px;
+    height: 100px;
+    margin: auto;
+}
+footer ul{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+footer ul li{
+    display: inline-block;
+    text-decoration: none;
+}
+footer ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    margin: 10px;
+    font-family: sans-serif;
 }
