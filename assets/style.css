@@ -1,0 +1,115 @@
+.banner{
+    border: 1px solid;
+    width: 768px;
+    margin:auto;
+    background-image: url("img/geo.png");
+    background-repeat: no-repeat;
+    background-position-x: 110%;
+    background-position-y: 37%;
+    background-size: 370px;
+}
+nav{
+    
+}
+nav .logo{
+    width: 160px;
+    height: 100px;
+    
+}
+nav .nav_links{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    margin-left: 45px;
+}
+nav .nav_links li{
+    display: inline-block;
+
+}
+nav .nav_links li a{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 44px 7px;
+    font-size:17px;
+    text-transform: uppercase;
+    color: black;
+}
+nav .nav_links li a:hover{
+    color: rgb(224, 16, 162);
+}
+.banner_content{
+    
+    
+}
+.banner_content .left{
+    
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    padding-top: 50px;
+}
+.banner_content .left h5, h3{
+    font-weight: 400;
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 22px;
+    margin: 0;
+}
+.banner_content .left h1{
+    font-weight:600;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 27px;
+    margin: 0;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.banner_content .left h3{
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.banner_content .left a{
+    display: inline-block;
+    text-decoration: none;
+    font-family: sans-serif;
+    border-radius: 3px;
+    padding: 12px 30px;
+    color: white;
+    font-weight: bold;
+    background: rgb(57,139,181);
+    background: linear-gradient(90deg, rgba(57,139,181,1) 35%, rgba(232,96,195,1) 100%);
+}
+.banner_content .right{
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+.banner_content .right img{
+    margin: 84px -90px 0px 0px;
+
+}
+.count{
+    
+    margin-top: 50px;
+}
+.count .counter{
+    box-shadow: 0 0 10px black;
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    padding: 15px 25px;
+    background-color: rgb(241, 235, 235);
+    margin: 0px 10px;
+    font-family: sans-serif;
+}
+.count .counter h4{
+    background: #121FCF;
+    background: -webkit-linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    background: -moz-linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 42px;
+    margin: 0;
+}
