@@ -108,3 +108,62 @@ nav .nav_links li a:hover{
     font-size: 42px;
     margin: 0;
 }
+
+.about{
+    border: 1px solid;
+    width: 768px;
+    margin:auto;
+    height: 400px;
+    background-image: url("img/geo1.png");
+    background-repeat: no-repeat;
+    background-position-x: -106%;
+    background-position-y: 30%;
+    background-size: 580px;
+    margin-top: 20px;
+}
+.about .aboutleft{
+    
+    display: inline-block;
+    width: 48%;
+    text-align: center;
+}
+.about .aboutleft img{
+    margin: 95px 183px 0px 0px;
+    width: 185px;
+}
+.about .aboutright{
+    
+    display: inline-block;
+    width: 50%;
+    text-align: justify;
+    vertical-align: top;
+    padding: 50px 2px;
+}
+.about .aboutright h4{
+    font-weight: 400;
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 15px;
+    margin: 0;
+}
+.about .aboutright h1{
+    font-weight:600;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 27px;
+    margin: 0;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.about .aboutright p{
+    font-family: sans-serif;
+}
+.about .aboutright a{
+    display: inline-block;
+    text-decoration: none;
+    font-family: sans-serif;
+    border-radius: 3px;
+    padding: 12px 30px;
+    color: white;
+    font-weight: bold;
+    background: rgb(57,139,181);
+    background: linear-gradient(90deg, rgba(57,139,181,1) 35%, rgba(232,96,195,1) 100%);
+}
