@@ -94,7 +94,7 @@ nav .nav_links li a:hover{
     text-align: center;
     width: 100px;
     padding: 15px 25px;
-    background-color: rgb(241, 235, 235);
+    background-color: rgb(241, 241, 241);
     margin: 0px 10px;
     font-family: sans-serif;
 }
@@ -113,7 +113,6 @@ nav .nav_links li a:hover{
     border: 1px solid;
     width: 768px;
     margin:auto;
-    height: 400px;
     background-image: url("img/geo1.png");
     background-repeat: no-repeat;
     background-position-x: -106%;
@@ -144,6 +143,7 @@ nav .nav_links li a:hover{
     font-family: 'Sedgwick Ave', cursive;
     font-size: 15px;
     margin: 0;
+    text-transform: uppercase;
 }
 .about .aboutright h1{
     font-weight:600;
@@ -164,6 +164,71 @@ nav .nav_links li a:hover{
     padding: 12px 30px;
     color: white;
     font-weight: bold;
+    background: rgb(57,139,181);
+    background: linear-gradient(90deg, rgba(57,139,181,1) 35%, rgba(232,96,195,1) 100%);
+    text-transform: uppercase;
+}
+
+.service{
+    border: 1px solid red;
+    width: 768px;
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+.service .top{
+    font-family: 'Sedgwick Ave', cursive;
+    padding: 30px 0px;
+}
+.service .top h4,
+.service .top h1{
+    margin: 0;
+    padding: 0;
+    font-size:15px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.service .top h1{
+    font-weight:600;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 27px;
+    width: 260px;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.service .bottom .content{
+    display: inline-block;
+    width:32%;
+    margin: 0px 3.7px;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: rgb(241, 241, 241);
+    
+}
+.service .bottom .content i{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.service .bottom .content h1{
+    font-size: 23px;
+}
+.service .bottom .content p{
+    font-size: 16px;
+    text-align: justify;
+}
+.service .bottom .content a{
+    text-decoration: none;
+    font-size: 14px;
+    color:darkslategrey;
+    text-transform: uppercase;
+}
+hr{
+    width: 50px;
+    margin-left: 60px;
+    height: 3px;
     background: rgb(57,139,181);
     background: linear-gradient(90deg, rgba(57,139,181,1) 35%, rgba(232,96,195,1) 100%);
 }
